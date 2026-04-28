@@ -1,0 +1,170 @@
+﻿AI Engineer Portfolio
+Profile Summary
+AI Engineer with hands-on experience in designing, optimizing, and deploying production-grade AI systems for real-world consumer applications. Specialized in computer vision, generative AI, and scalable API architectures, with a strong focus on performance optimization, model orchestration, and cost-efficient GPU deployment.
+Over the past 9 months, contributed to multiple AI-driven products including beauty camera applications, image enhancement systems, generative media platforms, and intelligent chatbot solutions, delivering measurable improvements in latency, accuracy, and user engagement.
+________________
+
+
+Core Technical Expertise
+* Languages & Frameworks: Python, FastAPI
+* AI/ML Domains: Computer Vision, Generative AI, Image Processing
+* Models & Libraries: Stable Diffusion (SDXL), GFPGAN, Real-ESRGAN, SRVGG, BiRefNet, InsightFace (InSwapper), Qwen, Gemini
+* Deployment & Infra: Docker, GPU-based deployment (Hugging Face Spaces), RunPod
+* Monitoring: Prometheus, Grafana
+* Architecture: REST APIs, Asynchronous Processing, Model Pipelines, Fallback Systems
+________________
+
+
+Product Engineering Experience
+1. FaceSwap API
+Description:
+Developed a high-performance face swapping API using InsightFace (Buffalo + InSwapper models) for real-time applications.
+Key Contributions:
+* Designed and deployed scalable FastAPI-based inference endpoints
+* Containerized and deployed on GPU-backed Hugging Face Docker environments
+* Reduced response latency from 45 seconds → 17 seconds (~62% improvement)
+* Improved face swap accuracy from ~68.9% → ~77%
+* Optimized preprocessing and blending pipeline for better visual realism
+________________
+
+
+2. AI Image Enhancer API
+Description:
+Built an advanced image enhancement pipeline integrating multiple super-resolution and face restoration models.
+Models Used:
+* GFPGAN (face restoration)
+* SRVGG
+* Real-ESRGAN
+Key Contributions:
+* Developed multi-stage enhancement pipeline
+* Increased output quality accuracy from ~75% → ~87%
+* Implemented model chaining and fine-tuning strategies
+* Optimized inference flow for better GPU utilization
+________________
+
+
+3. Object Remover API
+Description:
+Engineered an object removal system using Stable Diffusion XL Inpainting.
+Key Contributions:
+* Replaced legacy system using Gemini image editing model
+* Implemented mask-based inpainting pipeline
+* Designed custom FastAPI endpoints for image + mask inputs
+* Improved user engagement/usage flow from ~30% → ~64%
+* Significantly enhanced output consistency and realism
+* Achieved an ~86% cost reduction, bringing expenses down from $220 to $30.
+________________
+
+
+4. Background Remover API
+Description:
+Developed a high-precision background removal system using BiRefNet.
+Key Contributions:
+* Built efficient inference API using FastAPI
+* Delivered improved edge detection and subject isolation
+* Optimized processing pipeline for faster turnaround
+________________
+
+
+5. Image Generation Modules API
+Description:
+Designed a robust image generation system with multi-model fallback architecture.
+Models Used:
+* Primary: Gemini 2.5 Flash Image
+* Fallback: Qwen Image Model
+Key Contributions:
+* Implemented fallback inference system to ensure reliability
+* Optimized image dimensions dynamically for performance
+* Developed prompt engineering pipelines for:
+   * Style control
+   * Business-oriented outputs
+   * Multi-image merging
+* Balanced latency vs quality trade-offs
+________________
+
+
+6. Video Generation & LipSync API
+Description:
+Built asynchronous video generation pipelines integrating multiple external AI services.
+Technologies Used:
+* PixVerse (via Fal AI)
+* LTX Video Model APIs
+* LipSync APIs
+Key Contributions:
+* Designed job-based asynchronous architecture
+* Implemented job ID tracking system
+* Managed long-running GPU tasks efficiently
+* Enabled scalable video and lip-sync generation workflows
+________________
+
+
+7. Pixcraft AI Platform
+Description:
+Contributed to a business-focused AI platform for image generation.
+Key Contributions:
+* Developed backend APIs for image generation workflows
+* Designed domain-specific prompt engineering for:
+   * Business professionals
+   * Formal attire generation
+   * Corporate branding visuals
+* Improved output relevance for commercial use cases
+________________
+
+
+8. Awaaz App – Content Moderation System
+Description:
+Developed an AI-based image moderation system for safety and compliance.
+Key Contributions:
+* Integrated NSFW classification models
+* Built API to calculate confidence scores
+* Implemented rejection pipeline for unsafe content
+* Ensured compliance with platform safety standards
+Deployment & Monitoring
+* Deployed all APIs using:
+   * Dockerized GPU environments on Hugging Face
+* Implemented real-time monitoring and alerting using:
+   * Prometheus
+   * Grafana
+* Ensured:
+   * High availability
+   * Performance tracking
+   * Failure detection and alerting
+________________
+
+
+Key Achievements
+* Reduced inference latency by up to 60%+
+* Improved model output quality by 10–20% across multiple systems
+* Increased product engagement metrics by 30%+
+* Designed and deployed end-to-end AI systems in production
+* Built scalable APIs handling real-world user traffic
+
+
+________________
+
+
+Client Project Experience
+Viteezy – AI Health Quiz Chatbot
+Description:
+Developed an intelligent chatbot for personalized health recommendations.
+Technologies Used:
+* Python
+* LLMs (OpenAI)
+Key Contributions:
+* Built dynamic questionnaire flow
+* Integrated LLM-based reasoning system
+* Designed logic to recommend products from database based on user responses
+* Delivered a personalized and interactive user experience
+________________
+
+
+Strengths
+* Strong understanding of AI product lifecycle
+* Expertise in model optimization and deployment
+* Ability to bridge research models → production systems
+* Focus on performance, cost efficiency, and scalability
+________________
+
+
+Leadership
+* Trained a final-year intern on model fine tuning, deployments, monitoring, prompt engineering, and API designing.

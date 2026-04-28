@@ -40,15 +40,11 @@
         <div class="container hero">
           <div class="hero-profile reveal">
             <div class="profile-photo">
-              <img src="https://raw.githubusercontent.com/Hari-Kec/Portfolio/refs/heads/main/profile.jpeg" alt="Hari">
+              <img src="images/portfolio-profile.png" alt="Hari">
             </div>
             <div class="hero-text">
               <h1 class="hero-title"><span class="accent">Hari</span> — AI Engineer</h1>
               <p class="hero-sub">Passionate about building intelligent, scalable solutions that bridge innovation with real‑world impact. My vision is to make AI accessible, efficient, and ethically built for everyone.</p>
-              <div class="hero-ctas centered">
-                <a class="btn primary" href="#projects">View Projects <i class="fa fa-arrow-right"></i></a>
-                <a class="btn ghost" href="#contact">Book a Session <i class="fa fa-calendar"></i></a>
-              </div>
             </div>
           </div>
         </div>
@@ -65,26 +61,26 @@
             <article class="project-card reveal">
               <div class="project-overlay">
                 <h3>AI Application Development</h3>
-                <p class="small-muted">End-to-end ML application development for production.</p>
+                <p class="small-muted">Designing and deploying end-to-end AI-powered applications, from model integration to production-ready backends.</p>
               </div>
             </article>
             <article class="project-card reveal">
               <div class="project-overlay">
                 <h3>RAG & Chatbot Systems</h3>
-                <p class="small-muted">Retrieval-augmented systems and conversational agents.</p>
+                <p class="small-muted">Building intelligent chatbots and retrieval-based systems that deliver accurate, context-aware responses.</p>
               </div>
             </article>
             <article class="project-card reveal">
               <div class="project-overlay">
-                <h3>LLM System Engineering</h3>
-                <p class="small-muted">Optimizing LLM pipelines and inference at scale.</p>
+                <h3>AI Agents</h3>
+                <p class="small-muted">Autonomous agents and multi-step automation workflows that plan, reason, and act with minimal human intervention.</p>
               </div>
             </article>
           </div>
         </div>
       </section>
 
-      <!-- 3. Experience Timeline -->
+
       <!-- 3. Experience Timeline -->
 <section id="experience" class="section experience-section">
   <div class="container">
@@ -100,10 +96,18 @@
         <span class="timeline-marker"></span>
         <div class="timeline-body">
           <h3 class="timeline-title">
-            <img src="logicgo.jpeg" alt="LogicGo Infotech logo" class="company-logo">
-            <span>LogicGo Infotech — AI Developer</span>
+            <img src="images/logicgo.jpeg" alt="LogicGo Infotech logo" class="company-logo">
+            <span>LogicGo Infotech — AI Engineer</span>
             <span class="timeline-meta">(August 2025 – present)</span>
           </h3>
+          <p><strong>Focus:</strong> Production-grade AI APIs for computer vision and generative media applications.</p>
+          <ul>
+            <li>Built and deployed scalable FastAPI services for face swap, enhancement, object removal, background removal, and generation workflows.</li>
+            <li>Reduced inference latency from 45s to 17s in core pipelines and improved output quality/accuracy across models.</li>
+            <li>Designed asynchronous job-based video and lip-sync pipelines for long-running GPU tasks.</li>
+            <li>Implemented fallback model architecture and monitoring stack using Docker, Prometheus, and Grafana.</li>
+            <li>Improved product engagement and significantly reduced serving costs through pipeline optimization.</li>
+          </ul>
         </div>
       </div>
 
@@ -112,7 +116,7 @@
         <div class="timeline-marker"></div>
         <div class="timeline-body">
           <h3 class="timeline-title">
-            <img src="punchbiz.jpg" alt="Punchbiz logo" class="company-logo">
+            <img src="images/punchbiz.jpg" alt="Punchbiz logo" class="company-logo">
             <span>Punchbiz — Full Stack AI Developer</span>
             <span class="timeline-meta">(Jul 2024 – Dec 2024)</span>
           </h3>
@@ -129,7 +133,7 @@
         <div class="timeline-marker"></div>
         <div class="timeline-body">
           <h3 class="timeline-title">
-            <img src="centillion.jpg" alt="Centillion Labs logo" class="company-logo">
+            <img src="images/centillion.jpg" alt="Centillion Labs logo" class="company-logo">
             <span>Centillion Labs — AI Developer</span>
             <span class="timeline-meta">(Dec 2023 – Apr 2024)</span>
           </h3>
@@ -145,28 +149,43 @@
   </div>
 </section>
 
-
-
-      <!-- 4. Technical Skills -->
+            <!-- 4. Technical Skills -->
       <section id="skills" class="section">
         <div class="container">
           <div class="section-header">
             <h2><i class="fa fa-tools"></i> Technical Skills</h2>
             <p class="section-sub">Categorized skills and tools I use frequently.</p>
           </div>
-          <div class="about-grid">
-            <div class="about-card reveal skills-font">
-              <h3>Languages</h3>
-              <p>Python, Java, C, JavaScript</p>
-              <h3>Frameworks & Libraries</h3>
-              <p>React.js, Node.js, Express.js, TensorFlow, PyTorch, Keras, OpenCV, LangChain</p>
-            </div>
-
-            <div class="skills-card reveal skills-font">
-              <h3>Databases & Cloud</h3>
-              <p>PostgreSQL, MongoDB, SQL, AWS, Docker</p>
-              <h3>Tools & Others</h3>
-              <p>Git, Power BI, Figma, Jupyter Notebook</p>
+          <div class="skills-unified reveal">
+            <div class="skills-grid">
+              <div class="skill-category">
+                <h3>Languages</h3>
+                <p>Python</p>
+              </div>
+              <div class="skill-category">
+                <h3>Databases</h3>
+                <p>PostgreSQL, MongoDB</p>
+              </div>
+              <div class="skill-category">
+                <h3>AI & ML Frameworks</h3>
+                <p>TensorFlow, PyTorch, Keras, OpenCV, LangChain</p>
+              </div>
+              <div class="skill-category">
+                <h3>Cloud & Deployment</h3>
+                <p>Docker, Hugging Face, RunPod, Modal</p>
+              </div>
+              <div class="skill-category">
+                <h3>Backend & APIs</h3>
+                <p>FastAPI</p>
+              </div>
+              <div class="skill-category">
+                <h3>Monitoring & Observability</h3>
+                <p>Prometheus, Grafana, Power BI</p>
+              </div>
+              <div class="skill-category">
+                <h3>Tools</h3>
+                <p>Git, Postman</p>
+              </div>
             </div>
           </div>
         </div>
@@ -321,20 +340,16 @@
         </div>
       </section>
 
-      <!-- 9. Book a Session -->
+      <!-- 9. Contact -->
       <section id="contact" class="section contact-section">
         <div class="container">
           <div class="section-header">
-            <h2><i class="fa fa-calendar"></i> Book a Session</h2>
-            <p class="section-sub">Let’s connect — book a session on Topmate.</p>
+            <h2><i class="fa fa-envelope"></i> Contact</h2>
+            <p class="section-sub">Let’s connect for projects, mentorship, or collaborations.</p>
           </div>
-          <div class="contact-grid">
-            <div class="contact-card reveal">
-              <h3>💬 Book a Session</h3>
-              <p>Schedule a call to discuss projects, mentorship or collaborations.</p>
-              <a class="btn primary" href="https://topmate.io/hari_ai">Book on Topmate</a>
-            </div>
-            <div class="contact-card reveal contact-icons">
+          <div class="contact-unified reveal">
+            <h3>💬 Get in Touch</h3>
+            <div class="contact-icons-wrapper">
               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=harisenthilcbe@gmail.com"
                 target="_blank" aria-label="Email" title="Send me an Email">
                 <i class="fa fa-envelope"></i>
@@ -350,15 +365,7 @@
 
     <footer class="site-footer">
       <div class="container">
-        <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
-          <p>&copy; <span id="year"></span> Hari — AI Developer</p>
-          <div class="hero-social">
-            <a href="https://www.linkedin.com/in/h-a-r-i" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/Hari-Kec" aria-label="GitHub"><i class="fab fa-github"></i></a>
-            <a href="https://x.com/harisenthilcbe" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com/h.a.r.i_12/?hl=en" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
+        <p>&copy; <span id="year"></span> Hari — AI Engineer</p>
       </div>
     </footer>
 
